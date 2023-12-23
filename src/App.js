@@ -1,7 +1,12 @@
 import './App.css';
-import { Card, Companies, Contact, FAQ, Footer, Hero, HowItWorks, Images, Manager } from './Components';
+import { Card, Companies, Contact, FAQ, Footer, Hero, HowItWorks, Images, ClientTestimonial } from './Components';
 
-
+/**
+ * App.js
+ * 
+ * Shows all the components of the page in browser
+ * 
+ */
 function App() {
   return (
     <div className='scroll-smooth'>
@@ -9,7 +14,7 @@ function App() {
       <Companies/>
       <Images/>
       <HowItWorks/>
-      <Manager/>
+      <ClientTestimonial/>
       <Card/>
       <FAQ/>
       <Contact/>

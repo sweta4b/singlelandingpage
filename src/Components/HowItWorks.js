@@ -1,6 +1,11 @@
 import React from 'react';
 import { Arrow, One, Three, Two } from '../Images';
 
+/**
+ * HowItWorks.js
+ * Used for styling and holding data of Hero Section
+ * 
+ */
 function HowItWorks() {
   return (
     <div id="howItWorks" className='w-full mt-40 '>
@@ -22,7 +27,7 @@ function HowItWorks() {
             <img src={Two} alt="two" className='m-auto'/>
             <div className='absolute top-20 left-0 text-white'>
               <h1 className='text-6xl font-bold text-blue-950'>Request</h1>
-              <p className='text-gray-600'>Sumit any number of requests. We'll work through them, one at a time, ensuring consistent updates every 24-48 hours.</p>
+              <p className='text-gray-600'>Submit any number of requests. We'll work through them, one at a time, ensuring consistent updates every 24-48 hours.</p>
             </div>
           </div>
           <div className='flex flex-col items-center justify-center text-center'>

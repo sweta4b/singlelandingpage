@@ -1,6 +1,11 @@
 import React from 'react';
 import { Image1, Image2, Image3 } from '../Images';
 
+/**
+ * Images.js
+ * Used for styling and holding images below Hero Section in "View Recent Work"
+ * 
+ */
 function Images() {
   const images = [Image1, Image2, Image3, Image2];
 

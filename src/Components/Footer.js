@@ -1,5 +1,9 @@
 import React from 'react';
-
+/**
+ * Footer.js
+ * Used for styling and holding footer data
+ * 
+ */
 function Footer() {
     return (
         <div className='w-full bg-white'>

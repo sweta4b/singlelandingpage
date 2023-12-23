@@ -6,7 +6,7 @@ import FAQ from "./FAQ";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Images from "./Images";
-import Manager from "./Manager";
+import ClientTestimonial from "./ClientTestimonial";
 import HowItWorks from "./HowItWorks";
 
-export {Companies, Navbar, Hero, Card, FAQ, Contact, Footer, Images, Manager, HowItWorks}
+export {Companies, Navbar, Hero, Card, FAQ, Contact, Footer, Images, ClientTestimonial, HowItWorks}

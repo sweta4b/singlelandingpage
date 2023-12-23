@@ -1,5 +1,9 @@
 import React from 'react'
-
+/**
+ * Contact.js
+ * For styling and holding data of "Contact Us" section
+ * 
+ */
 function Contact() {
   return (
     <div className='w-full bg-white mt-60 bg-gradient-to-b from-purple-50 via-white to-transparent '>

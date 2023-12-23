@@ -1,7 +1,16 @@
 import React, { useState } from 'react'
 
+/**
+ * Navbar.js
+ * 
+ * Used for styling and holding links in Navbar Section
+ * 
+ */
 export default function Navbar() {
-    const [showMenu, setShowMenu] = useState(false)
+    
+    //Using the useState hook to create a state variable 'showMenu' and its updater function 'setShowMenu' for displaying navbar in small screen. It shows navbar with toggle functionality.
+    const [showMenu, setShowMenu] = useState(false)   
+    
     return (
         <div className=' w-full h-[80px]  '>
             <div className='md:max-w-[1480px] max-w-[600px]  m-auto w-full h-full flex justify-between items-center md:px-0 px-8'>

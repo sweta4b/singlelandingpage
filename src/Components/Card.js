@@ -1,5 +1,8 @@
 import React from 'react'
-
+/**
+ * Card.js
+ * Used for styling and data for Pricing Section
+ */
 function Card() {
   return (
     <div className='w-full bg-gradient-to-b from-purple-50 via-white to-transparent' id="pricing">

@@ -1,12 +1,21 @@
 import React, { useState } from 'react';
-
+/**
+ * FAQ.js
+ * Used for styling and holding data of FAQ section
+ */
 function FAQ() {
-    const [activeTab, setActiveTab] = useState(null);
 
+    // Using the useState hook to create a state variable 'activeTab' and its updater function 'setActiveTab'
+    const [activeTab, setActiveTab] = useState(null);
+ 
+    // The toggleTab function is responsible for toggling the active state of the FAQ tabs
     const toggleTab = (index) => {
+        // If the clicked tab is already active, set 'activeTab' to null (hide the content)
+        // Otherwise, set 'activeTab' to the index of the clicked tab (show the content)
         setActiveTab(activeTab === index ? null : index);
     };
 
+    //data for FAQ 
     const faqs = [
         {
             question: 'Is there a free trial available?',

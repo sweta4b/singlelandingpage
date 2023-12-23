@@ -1,6 +1,10 @@
 import React from 'react'
 import Navbar from './Navbar'
-
+/**
+ * Hero.js
+ * Used for styling and holding data of Hero Section
+ * 
+ */
 function Hero() {
   return (
     <div className='w-full bg-gradient-to-bl from-purple-200 via-white to-transparent '>

@@ -1,6 +1,9 @@
 import React from 'react'
 import { Adobe, Amazon, Slack, Spotify, Zapier, Zoom } from '../Logo'
-
+/**
+ * Companies.js 
+ * For styling and showing list of companies
+ */
 
 function Companies() {
     return (
