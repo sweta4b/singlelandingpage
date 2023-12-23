@@ -14,7 +14,7 @@ export default function Navbar() {
                     </ul>
                 </nav>
                 <div className='hidden md:block'>
-                    <button className='border bg-white border-slate-400 hover:border-slate-800 px-8 py-3 rounded-md font-semibold text-gray-600'>Contact Us</button>
+                    <button className='border  border-slate-400 hover:border-slate-800 px-8 py-3 rounded-md font-semibold text-gray-600'>Contact Us</button>
                 </div>
                 <div className='md:hidden '>
                     <button className="btn" onClick={() => setShowMenu(!showMenu)}><i className={showMenu ? "fa fa-close" : "fa fa-bars"}></i></button>
