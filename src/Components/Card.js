@@ -9,7 +9,7 @@ function Card() {
         </div>
         <div className='flex justify-center items-center py-4 '>
         <div className='md:max-w-[1480px] max-w-[600px]  m-auto grid lg:grid-cols-3 md:grid-cols-2 md:gap-20 gap-10'>
-            <div className='m-2 p-4 border-gray-200 border border rounded-lg '>
+            <div className='m-2 p-4 border-gray-200 border border rounded-lg hover:scale-[1.1] ease-in-out duration-300 shadow-xl'>
                 <h1 className='text-xl text-blue-950 font-semibold'>Freebie</h1>
                 <p className='text-gray-600 font-semibold my-4'>Ideal for individuals who need quick access to basic features</p>
                  
@@ -29,7 +29,7 @@ function Card() {
                     <li className='text-gray-600'><i className='fa fa-check-circle-o pr-2'></i>Create teams to collaborate on designs</li>
                 </ul>
             </div>
-            <div className='m-2 p-4 border-gray-200 border border rounded-lg bg-blue-950'>
+            <div className='m-2 p-4 border-gray-200 border border rounded-lg bg-blue-950 hover:scale-[1.1] ease-in-out duration-300 shadow-xl'>
                 <h1 className='text-xl text-white  font-semibold'>Freebie</h1>
                 <p className='text-white font-semibold my-4'>Ideal for individuals who need quick access to basic features</p>
                  
@@ -49,7 +49,7 @@ function Card() {
                     <li className='text-gray-400'><i className='fa fa-check-circle-o pr-2'></i>Create teams to collaborate on designs</li>
                 </ul>
             </div>
-            <div className='m-2 p-4 border-gray-200 border border rounded-lg '>
+            <div className='m-2 p-4 border-gray-200 border border rounded-lg hover:scale-[1.1] ease-in-out duration-300 shadow-xl'>
                 <h1 className='text-xl text-blue-950 font-semibold'>Freebie</h1>
                 <p className='text-gray-600 font-semibold my-4'>Ideal for individuals who need quick access to basic features</p>
                  
