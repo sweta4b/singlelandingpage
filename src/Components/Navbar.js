@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 export default function Navbar() {
     const [showMenu, setShowMenu] = useState(false)
     return (
-        <div className=' w-full h-[80px] bg-gradient-to-t from-purple-50 via-white to-transparent '>
+        <div className=' w-full h-[80px]  '>
             <div className='md:max-w-[1480px] max-w-[600px]  m-auto w-full h-full flex justify-between items-center md:px-0 px-8'>
                 <h1 className='text-blue-950 text-2xl font-semibold cursor-pointer hover:scale-125'>UniCraft</h1>
                 <nav className='flex items-center'>

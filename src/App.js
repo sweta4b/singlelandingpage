@@ -1,11 +1,10 @@
 import './App.css';
-import { Card, Companies, Contact, FAQ, Footer, Hero, HowItWorks, Images, Manager, Navbar } from './Components';
+import { Card, Companies, Contact, FAQ, Footer, Hero, HowItWorks, Images, Manager } from './Components';
 
 
 function App() {
   return (
     <div className='scroll-smooth'>
-      <Navbar/>
       <Hero/>
       <Companies/>
       <Images/>
