@@ -15,13 +15,13 @@ function Footer() {
                             <p>@ 2077 Untitled UI. All rights reserved.</p>
                         </div>
 
-                    <div className='col-span-3 text-gray-600 text-xl '>
-                        <i className='fa fa-twitter mr-4'></i>
-                        <i className='fa fa-linkedin mr-4'></i>
-                        <i className='fa fa-facebook mr-4'></i>
-                        <i className='fa fa-github mr-4'></i>
-                        <i className='fa fa-instagram mr-4'></i>
-                        <i className='fa fa-globe mr-4'></i>
+                    <div className='md:cols-3 md:grid-cols-6 col-span-2 gap-y-3 grid grid-cols-3 text-gray-600 text-xl '>
+                        <i className='fa fa-twitter mr-4 hover:cursor-pointer hover:scale-125'></i>
+                        <i className='fa fa-linkedin mr-4 hover:cursor-pointer hover:scale-125'></i>
+                        <i className='fa fa-facebook mr-4 hover:cursor-pointer hover:scale-125'></i>
+                        <i className='fa fa-github mr-4 hover:cursor-pointer hover:scale-125'></i>
+                        <i className='fa fa-instagram mr-4 hover:cursor-pointer hover:scale-125'></i>
+                        <i className='fa fa-globe mr-4 hover:cursor-pointer hover:scale-125'></i>
                     </div>
 
                 </div>

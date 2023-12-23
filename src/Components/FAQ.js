@@ -35,7 +35,7 @@ function FAQ() {
     ];
 
     return (
-        <div className='w-full bg-white'>
+        <div className='w-full bg-white ' id="faq">
             <div className='md:max-w-[1480px] max-w-[600px]  m-auto  text-center pt-20 mt-20 px-2 md:px-0'>
                 <h1 className=' text-5xl leading-tight text-blue-950  font-semibold md:text-6xl '>Frequently asked questions</h1>
                 <p className=' md:text-xl pt-4 text-gray-500 font-medium'>Everything you need to know about the product and billing</p>

@@ -9,12 +9,12 @@ function Companies() {
                 <p className='text-gray-500 text-center py-8'>Trusted by 250+ companies</p>
                 <div className='flex justify-center items-center py-8  '>
                 <div className='grid md:grid-cols-6 sm:grid-cols-4 md:gap-20 gap-10'>
-                    <img src={Zapier} alt="Zapier"/>
-                    <img src={Spotify} alt="Spotify"/>
-                    <img src={Zoom} className="pt-[10px] pl-[10px]" alt="Zoom"/>
-                    <img src={Slack} alt="Slack"/>
-                    <img src={Amazon} alt="Amazon"/>
-                    <img src={Adobe} alt="Adobe"/>
+                    <img src={Zapier} alt="Zapier" className='hover:scale-125'/>
+                    <img src={Spotify} alt="Spotify" className='hover:scale-125'/>
+                    <img src={Zoom} className="pt-[10px] pl-[10px] hover:scale-125" alt="Zoom" />
+                    <img src={Slack} alt="Slack" className='hover:scale-125'/>
+                    <img src={Amazon} alt="Amazon" className='hover:scale-125'/>
+                    <img src={Adobe} alt="Adobe" className='hover:scale-125'/>
                 </div>
                 </div>
             </div>
